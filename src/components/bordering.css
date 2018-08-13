@@ -1,0 +1,11 @@
+.Field {
+  border: 1px solid #00ABFD;
+  width: 11.1%;
+  max-width: 50px; }
+
+.Field:nth-child(3n):not(:nth-child(9n)) {
+  border-right: 3px solid black; }
+
+/* black board*/
+.Field:nth-child(27n - 0):not(:nth-child(81n - 0)), .Field:nth-child(27n - 1):not(:nth-child(81n - 1)), .Field:nth-child(27n - 2):not(:nth-child(81n - 2)), .Field:nth-child(27n - 3):not(:nth-child(81n - 3)), .Field:nth-child(27n - 4):not(:nth-child(81n - 4)), .Field:nth-child(27n - 5):not(:nth-child(81n - 5)), .Field:nth-child(27n - 6):not(:nth-child(81n - 6)), .Field:nth-child(27n - 7):not(:nth-child(81n - 7)), .Field:nth-child(27n - 8):not(:nth-child(81n - 8)) {
+  border-bottom: 3px solid black; }
